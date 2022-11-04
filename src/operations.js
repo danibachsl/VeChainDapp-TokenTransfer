@@ -82,4 +82,7 @@ async function transferToken (addressContract, signerAddress, toAddress, amountE
     return transactionInfo
   }
 
-  
+  export {
+    getTokenBalance,
+    transferToken
+  }
